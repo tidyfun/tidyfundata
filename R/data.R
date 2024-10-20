@@ -17,6 +17,15 @@ NULL
 #' include the following acknowledgment: “The MRI/DTI data were collected
 #' at Johns Hopkins University and the Kennedy-Krieger Institute"
 #'
+#' @format A tibble with 382 rows and 6 variables:
+#' \describe{
+#'   \item{id}{}
+#'   \item{visit}{}
+#'   \item{sex}{}
+#'   \item{case}{}
+#'   \item{cca}{}
+#'   \item{rcst}{}
+#' }
 #' @examples
 #' dti
 "dti"

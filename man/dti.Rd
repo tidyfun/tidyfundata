@@ -5,7 +5,15 @@
 \alias{dti}
 \title{Diffusion tensor imaging data}
 \format{
-An object of class \code{tbl_df} (inherits from \code{tbl}, \code{data.frame}) with 382 rows and 6 columns.
+A tibble with 382 rows and 6 variables:
+\describe{
+\item{id}{}
+\item{visit}{}
+\item{sex}{}
+\item{case}{}
+\item{cca}{}
+\item{rcst}{}
+}
 }
 \usage{
 dti
