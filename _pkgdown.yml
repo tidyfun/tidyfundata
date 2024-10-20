@@ -1,0 +1,5 @@
+url: https://tidyfun.github.io/tidyfundata/
+
+template:
+  bootstrap: 5
+  light-switch: true
