@@ -7,12 +7,12 @@
 \format{
 A tibble with 382 rows and 6 variables:
 \describe{
-\item{id}{}
-\item{visit}{}
-\item{sex}{}
-\item{case}{}
-\item{cca}{}
-\item{rcst}{}
+\item{id}{Subject ID}
+\item{visit}{The visit number}
+\item{sex}{The sex of the subject}
+\item{case}{The multiple sclerosis case status}
+\item{cca}{The fractional anisotropy (FA) tract profile for the corpus callosum}
+\item{rcst}{The fractional anisotropy (FA) tract profile for the right corticospinal tract}
 }
 }
 \usage{
