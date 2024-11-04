@@ -65,6 +65,10 @@ A tibble with 610 rows and 49 variables:
 kinematics
 }
 \description{
+This dataset includes kinematic data collected from participants running
+under various conditions, with or without backpacks of different weights.
+}
+\details{
 The conditions are as follows:
 
 \describe{
