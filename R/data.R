@@ -30,7 +30,7 @@ NULL
 #' dti
 "dti"
 
-#' Kinematics data
+#' Running data
 #'
 #' @description
 #' This dataset includes kinematic data collected from participants running
@@ -112,5 +112,5 @@ NULL
 #'   \item{knee_vel_vt}{knee velocity vertical}
 #' }
 #' @examples
-#' kinematics
-"kinematics"
+#' running
+"running"
