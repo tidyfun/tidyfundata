@@ -11,4 +11,4 @@ kinematics$side <- as.factor(kinematics$side)
 kinematics$sex <- as.factor(kinematics$sex)
 kinematics$split_set <- as.factor(kinematics$split_set)
 
-usethis::use_data(kinematics, overwrite = TRUE)
+usethis::use_data(kinematics, overwrite = TRUE, compress = "xz")
