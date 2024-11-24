@@ -7,4 +7,4 @@ dti <- tibble::tibble(
   rcst = tf::tfd(refund::DTI$rcst, arg = seq(0, 1, length.out = 55))
 )
 
-usethis::use_data(dti, overwrite = TRUE)
+usethis::use_data(dti, overwrite = TRUE, compress = "xz")

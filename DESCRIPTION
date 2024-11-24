@@ -13,11 +13,12 @@ URL: https://tidyfun.github.io/tidyfundata/,
     https://github.com/tidyfun/tidyfundata
 BugReports: https://github.com/tidyfun/tidyfundata/issues
 Depends:
-    R (>= 3.4.0)
+    R (>= 4.1.0)
 Imports:
     tf,
     tibble
 Encoding: UTF-8
 LazyData: true
+LazyDataCompression: xz
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.3.2
