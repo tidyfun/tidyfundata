@@ -14,7 +14,7 @@
 #'   \item{event_week}{The week number relative to a critical event.}
 #'   \item{event_type}{Type of event recorded, such as hospitalization.}
 #'   \item{week}{Week number during the study, indicating the time frame of data collection.}
-#'   \item{day}{Day of the week (e.g., "Monday", "Tuesday") when the activity data was recorded.}
+#'   \item{day}{Day of the week (e.g. Monday, Tuesday) when the activity data was recorded.}
 #'   \item{activity}{Activity level recorded by the accelerometer.}
 #' }
 #' @examples
