@@ -15,7 +15,7 @@ A tibble with 13,300 rows and 9 variables:
 \item{event_type}{Type of event recorded, such as hospitalization.}
 \item{week}{Week number during the study, indicating the time frame of data collection.}
 \item{day}{Day of the week (e.g. Monday, Tuesday) when the activity data was recorded.}
-\item{activity}{Activity level recorded by the accelerometer.}
+\item{activity}{Activity level recorded by accelerometer (resolution is 1 minute, so 24 h/day * 60 min/h = 1440 min/day).}
 }
 }
 \source{
