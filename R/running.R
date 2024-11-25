@@ -39,7 +39,6 @@
 #'   \item{wt}{body mass}
 #'   \item{sex}{sex}
 #'   \item{study}{study}
-#'   \item{split_set}{validation set}
 #'   \item{ankle_accl_ap}{ankle acceleration anterior-posterior}
 #'   \item{ankle_accl_ml}{ankle acceleration medial-lateral}
 #'   \item{ankle_accl_vt}{ankle acceleration vertical}

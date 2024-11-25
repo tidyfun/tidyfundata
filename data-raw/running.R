@@ -9,6 +9,6 @@ running$study <- as.factor(running$study)
 running$cond <- as.factor(running$cond)
 running$side <- as.factor(running$side)
 running$sex <- as.factor(running$sex)
-running$split_set <- as.factor(running$split_set)
+running$split_set <- NULL
 
 usethis::use_data(running, overwrite = TRUE, compress = "xz")
