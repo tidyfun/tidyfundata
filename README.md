@@ -16,7 +16,7 @@ A collection of datasets containing functional data
 
 ## Installation
 
-You can install the development version of **`tidyfundata`** from
+You can install the development version of tidyfundata from
 [GitHub](https://github.com/) with:
 
 ``` r

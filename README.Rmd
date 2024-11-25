@@ -25,7 +25,7 @@ A collection of datasets containing functional data
 
 ## Installation
 
-You can install the development version of gmeans from [GitHub](https://github.com/) with:
+You can install the development version of tidyfundata from [GitHub](https://github.com/) with:
 
 ```{r, eval = FALSE}
 # install.packages("pak")
