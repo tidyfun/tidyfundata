@@ -80,9 +80,6 @@ under various conditions, with or without backpacks of different weights.</p>
 <dt>study</dt>
 <dd><p>study</p></dd>
 
-<dt>split_set</dt>
-<dd><p>validation set</p></dd>
-
 <dt>ankle_accl_ap</dt>
 <dd><p>ankle acceleration anterior-posterior</p></dd>
 
@@ -275,19 +272,19 @@ under various conditions, with or without backpacks of different weights.</p>
     <div class="section level2">
     <h2 id="ref-examples">Examples<a class="anchor" aria-label="anchor" href="#ref-examples"></a></h2>
     <div class="sourceCode"><pre class="sourceCode r"><code><span class="r-in"><span><span class="va">running</span></span></span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #949494;"># A tibble: 610 × 49</span></span>
-<span class="r-out co"><span class="r-pr">#&gt;</span>    id                  cond  side   step   age    ht    wt sex   study split_set</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span>    <span style="color: #949494; font-style: italic;">&lt;chr&gt;</span>               <span style="color: #949494; font-style: italic;">&lt;fct&gt;</span> <span style="color: #949494; font-style: italic;">&lt;fct&gt;</span> <span style="color: #949494; font-style: italic;">&lt;dbl&gt;</span> <span style="color: #949494; font-style: italic;">&lt;dbl&gt;</span> <span style="color: #949494; font-style: italic;">&lt;dbl&gt;</span> <span style="color: #949494; font-style: italic;">&lt;dbl&gt;</span> <span style="color: #949494; font-style: italic;">&lt;fct&gt;</span> <span style="color: #949494; font-style: italic;">&lt;fct&gt;</span> <span style="color: #949494; font-style: italic;">&lt;fct&gt;</span>    </span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;"> 1</span> bernard_study1_sub… fast… left   5.5     33  1.90  83.9 m     bern… train    </span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;"> 2</span> bernard_study1_sub… fast… left   5.5     30  1.60  53.7 f     bern… train    </span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;"> 3</span> bernard_study1_sub… fast… left   5.5     28  1.67  69.0 m     bern… test     </span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;"> 4</span> bernard_study1_sub… fast… left   5.56    29  1.62  47.6 f     bern… train    </span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;"> 5</span> bernard_study1_sub… fast… left   4.43    35  1.68  60.8 f     bern… train    </span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;"> 6</span> bernard_study1_sub… fast… right  4       26  1.83  85.9 m     bern… train    </span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;"> 7</span> bernard_study1_sub… fast… left   5.5     25  1.63  55.4 f     bern… train    </span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;"> 8</span> bernard_study1_sub… fast… left   5.5     30  1.69  61.1 f     bern… train    </span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;"> 9</span> bernard_study1_sub… fast… left   5.56    35  1.78  76.9 m     bern… train    </span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;">10</span> bernard_study1_sub… fast… right  4.5     34  1.66  65.5 m     bern… test     </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #949494;"># A tibble: 610 × 48</span></span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>    id                    cond   side   step   age    ht    wt sex   study       </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>    <span style="color: #949494; font-style: italic;">&lt;chr&gt;</span>                 <span style="color: #949494; font-style: italic;">&lt;fct&gt;</span>  <span style="color: #949494; font-style: italic;">&lt;fct&gt;</span> <span style="color: #949494; font-style: italic;">&lt;dbl&gt;</span> <span style="color: #949494; font-style: italic;">&lt;dbl&gt;</span> <span style="color: #949494; font-style: italic;">&lt;dbl&gt;</span> <span style="color: #949494; font-style: italic;">&lt;dbl&gt;</span> <span style="color: #949494; font-style: italic;">&lt;fct&gt;</span> <span style="color: #949494; font-style: italic;">&lt;fct&gt;</span>       </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;"> 1</span> bernard_study1_subj01 fastbw left   5.5     33  1.90  83.9 m     bernard_stu…</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;"> 2</span> bernard_study1_subj02 fastbw left   5.5     30  1.60  53.7 f     bernard_stu…</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;"> 3</span> bernard_study1_subj03 fastbw left   5.5     28  1.67  69.0 m     bernard_stu…</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;"> 4</span> bernard_study1_subj04 fastbw left   5.56    29  1.62  47.6 f     bernard_stu…</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;"> 5</span> bernard_study1_subj05 fastbw left   4.43    35  1.68  60.8 f     bernard_stu…</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;"> 6</span> bernard_study1_subj06 fastbw right  4       26  1.83  85.9 m     bernard_stu…</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;"> 7</span> bernard_study1_subj07 fastbw left   5.5     25  1.63  55.4 f     bernard_stu…</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;"> 8</span> bernard_study1_subj08 fastbw left   5.5     30  1.69  61.1 f     bernard_stu…</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;"> 9</span> bernard_study1_subj09 fastbw left   5.56    35  1.78  76.9 m     bernard_stu…</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;">10</span> bernard_study1_subj10 fastbw right  4.5     34  1.66  65.5 m     bernard_stu…</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #949494;"># ℹ 600 more rows</span></span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #949494;"># ℹ 39 more variables: ankle_accl_ap &lt;tfd_reg&gt;, ankle_accl_ml &lt;tfd_reg&gt;,</span></span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #949494;">#   ankle_accl_vt &lt;tfd_reg&gt;, ankle_angle_ap &lt;tfd_reg&gt;,</span></span>
