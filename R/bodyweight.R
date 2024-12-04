@@ -16,7 +16,7 @@
 #'   \item{dim}{Dimension of rotation.}
 #'   \item{rep}{The number of repetitions.}
 #'   \item{rating}{Quality of their exercise sets within a range of 1 to 5.}
-#'   \item{activity}{}
+#'   \item{activity}{The bicycle crunch activity.}
 #' }
 #' @examples
 #' bodyweight
