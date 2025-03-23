@@ -1,6 +1,7 @@
 # nolint start
 bibentries <- c(
-  liew2016a = bibentry("article",
+  liew2016a = bibentry(
+    "article",
     title = "Effects of two neuromuscular training programs on running biomechanics with load carriage: a study protocol for a randomised controlled trial",
     author = "Liew, B. X. and Morris, S. and Keogh, J. W. and Appleby, B. and Netto, K.",
     journal = "BMC Musculoskeletal Disorders",
@@ -11,7 +12,8 @@ bibentries <- c(
     key = "2016a",
     publisher = "BioMed Central"
   ),
-  liew2016b = bibentry("article",
+  liew2016b = bibentry(
+    "article",
     title = "The effects of load carriage on joint work at different running velocities",
     author = "Liew, B. X. and Morris, S. and Netto, K.",
     journal = "Journal of Biomechanics",
@@ -22,7 +24,8 @@ bibentries <- c(
     key = "2016b",
     publisher = "Elsevier"
   ),
-  fukuchi2017public = bibentry("article",
+  fukuchi2017public = bibentry(
+    "article",
     title = "A public dataset of running biomechanics and the effects of running speed on lower extremity kinematics and kinetics",
     author = "Fukuchi, Reginaldo K and Fukuchi, Claudiane A and Duarte, Marcos",
     journal = "PeerJ",

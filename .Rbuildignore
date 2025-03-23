@@ -1,5 +1,6 @@
 ^.*\.Rproj$
 ^CITATION\.cff$
+^CONTRIBUTING\.md$
 ^CRAN-RELEASE$
 ^CRAN-SUBMISSION$
 ^Dockerfile$
@@ -7,6 +8,7 @@
 ^Meta$
 ^README\.Rmd$
 ^README\.html$
+^[\.]?air\.toml$
 ^\.Renviron$
 ^\.Rproj\.user$
 ^\.ccache$
@@ -24,8 +26,7 @@
 ^compose\.ya?ml$
 ^cran-comments\.md$
 ^data-raw$
-^doc$
-^docs$
+^docs?$
 ^inst/extdata/.+\.R$
 ^man-roxygen$
 ^paper$
