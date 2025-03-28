@@ -33,6 +33,13 @@ bibentries <- c(
     pages = "e3298",
     year = "2017",
     publisher = "PeerJ Inc."
+  ),
+  huang2019multilevel = bibentry("article",
+    title = "Multilevel matrix-variate analysis and its application to accelerometry-measured physical activity in clinical populations",
+    author = "Huang, Lei and Bai, Jiawei and Ivanescu, Andrada and Harris, Tamara and Maurer, Mathew and Green, Philip and Zipunnikov, Vadim",
+    journal = "Journal of the American Statistical Association",
+    year = "2019",
+    publisher = "Taylor & Francis"
   )
 )
 # nolint end
