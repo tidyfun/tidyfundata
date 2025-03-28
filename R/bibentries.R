@@ -33,6 +33,17 @@ bibentries <- c(
     pages = "e3298",
     year = "2017",
     publisher = "PeerJ Inc."
+  ),
+  ebert2018open = bibentry("proceedings",
+    author = "Ebert, Andre and Marouane, Chadly and Ungnadner, Christian and Klein, Adrian",
+    editor = "Perego, Paolo and Rahmani, Amir M. and TaheriNejad, Nima",
+    title = "An Open, Labeled Dataset for Analysis and Assessment of Human Motion",
+    booktitle = "Wireless Mobile Communication and Healthcare",
+    year = "2018",
+    publisher = "Springer International Publishing",
+    address = "Cham",
+    pages = "99--106",
+    isbn = "978-3-319-98551-0"
   )
 )
 # nolint end
