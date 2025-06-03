@@ -3,18 +3,25 @@
 \docType{data}
 \name{bodyweight}
 \alias{bodyweight}
-\title{Bicycle Crunch data}
+\alias{bi}
+\alias{cr}
+\alias{ha}
+\alias{kn}
+\alias{lu}
+\alias{mo}
+\title{Bodyweight Exercise Data}
 \format{
-A tibble with 20,760 rows and 8 variables:
+A tibble with 8 variables:
 \describe{
 \item{id}{ID of the athlete.}
+\item{ex}{exercise type}
 \item{set}{The set number of the exercise.}
 \item{loc}{Location of body extremity.}
-\item{sens}{Indicator for acceleration (acc) or rotation (rot).}
-\item{dim}{Dimension of rotation.}
-\item{rep}{The number of repetitions.}
-\item{rating}{Quality of their exercise sets within a range of 1 to 5.}
-\item{activity}{The bicycle crunch activity.}
+\item{dim}{Direction of rotation / acceleration}
+\item{rep}{The count of the repetition.}
+\item{acc}{Acceleration in \eqn{m/s^2}}
+\item{rot}{Rotation in \eqn{rad/s}}
+\item{rating}{Quality of the exercise (range of 1 (best) to 5)}
 }
 }
 \source{
@@ -24,11 +31,24 @@ A tibble with 20,760 rows and 8 variables:
 bodyweight
 }
 \description{
-Sensor-based measurements and quality ratings of athletes performing the
-Bicycle Crunch exercise, recorded across multiple sets and repetitions.
+Sensor-based measurements and quality ratings of athletes performing different
+exercises, recorded across multiple sets and repetitions at different locations
+on their bodies.
+
+Argument values for acceleration and rotation are in ms since start of the repetition.
+
+The data sets / exercises are:
+\itemize{
+\item \code{bi}: "Bicycle Crunch" (one rep is left side - right side),
+\item \code{cr}: "Crunch",
+\item \code{ha}: "Jumping Jack",
+\item \code{kn}: "Squat",
+\item \code{lu}: "Lunge",
+\item \code{mo}: "Mountain Climber"
+}
 }
 \examples{
-bodyweight
+tibble::glimpse(bi)
 }
 \references{
 Perego, Paolo, Rahmani, M. A, TaheriNejad, Nima (eds.) (2018).
