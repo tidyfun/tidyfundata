@@ -6,7 +6,7 @@ profiles are the subject ID numbers, visit number, total number of
 scans, multiple sclerosis case status and Paced Auditory Serial Addition
 Test (pasat) score.
 
-Data are also include in the
+Data are also included in the
 [refund](https://CRAN.R-project.org/package=refund) package in another
 format.
 
