@@ -19,18 +19,17 @@ A tibble with 382 rows and 6 variables:
 dti
 }
 \description{
-Fractional anisotropy (FA) tract profiles for the corpus
-callosum (cca) and the right corticospinal tract (rcst). Accompanying
-the tract profiles are the subject ID numbers, visit number, total
-number of scans, multiple sclerosis case status and Paced Auditory Serial
-Addition Test (pasat) score.
+Fractional anisotropy (FA) tract profiles for the corpus callosum (cca) and
+the right corticospinal tract (rcst). Accompanying the tract profiles are
+the subject ID numbers, visit number, total number of scans, multiple
+sclerosis case status and Paced Auditory Serial Addition Test (pasat) score.
 
 Data are also included in the \CRANpkg{refund} package in another format.
 }
 \details{
-If you use this data as an example in written work, please
-include the following acknowledgment: "The MRI/DTI data were collected
-at Johns Hopkins University and the Kennedy-Krieger Institute"
+If you use this data as an example in written work, please include the
+following acknowledgment: "The MRI/DTI data were collected at Johns Hopkins
+University and the Kennedy-Krieger Institute"
 }
 \examples{
 dti
